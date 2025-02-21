@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Appointment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <div class="appointment-item">
+        <span
+          ><input
+            type="datetime-local"
+            id="meeting-time"
+            name="meeting-time"
+            value="2018-06-12T19:30"
+            min="2018-06-07T00:00"
+            max="2018-06-14T00:00"
+        /></span>
+        <input></input>
+        <div class="actions">
+          <select>
+            <option>No Reminder</option>
+            <option selected style="color: white">&#128276;</option>
+          </select>
+        </div>
+      </div>
+      <div><button>Submit</button></div>
+      <a href="appointments.html">Back</a>
+    </div>
+  </body>
+</html>

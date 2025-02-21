@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Reminder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <div class="reminder-item">
+        <span
+          ><input
+            type="datetime-local"
+            id="meeting-time"
+            name="meeting-time"
+            value="2018-06-12T19:30"
+            min="2018-06-07T00:00"
+            max="2018-06-14T00:00"
+        /></span>
+        <input></input>
+        <div class="actions">
+          <select>
+            <option>Repeat Daily</option>
+            <option>Repeat Weekly</option>
+            <option>Repeat Monthly</option>
+            <option selected>Once</option>
+          </select>
+        </div>
+      </div>
+      <div><button>Submit</button></div>
+      <a href="reminders.html">Back</a>
+    </div>
+  </body>
+</html>

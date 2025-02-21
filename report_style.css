@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #462638;
+  color: #333;
+}
+
+header {
+  background-color: #9e206e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+section p,
+section ul {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-gallery img {
+  max-width: 45%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.journey img {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: auto;
+  border-radius: 8px;
+  width: 80%;
+}
